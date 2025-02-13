@@ -13,4 +13,4 @@ redirect_from:
 
 Welcome to my little corner of the internet—it's still a **work in progress** 🚧, so mind the digital dust! 😆  
 
-If you need to reach me, don’t hesitate to **shoot me an email** 📬—I promise I’ll try to reply faster than two days and a half!🎤 💃 🎶 🏀
+If you need to reach me, don’t hesitate to **shoot me an email** 📬—I promise I’ll try to reply faster than two days and a half!
