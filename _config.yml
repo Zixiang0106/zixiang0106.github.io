@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Zixiang Lu"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Zixiang Lu"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://zixiang0106# the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -21,18 +21,18 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile1.png"
   name             : "Zixiang Lu"
   pronouns         : # example: "she/her"  
   bio              : "Graduate Student | University of Illinois Urbana-Champaign | Former undergrad at Peking University"
   location         : "Urbana, IL"
-  employer         : "University of Illinois at Urbana-Champaign"
+  employer         : "UIUC"
   uri              : # URL
   email            : "lu104@illinois.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=PVg_HXIAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # URL
   semantic         : # URL
