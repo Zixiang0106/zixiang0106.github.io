@@ -140,3 +140,126 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Layout for sidebar navigation */
+.page-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+.sidebar-content {
+    position: relative;
+    height: 100%;
+}
+
+.sidebar-title {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #1772d0;
+}
+
+.nav-link.active {
+    color: #1772d0;
+    font-weight: 600;
+}
+
+.main-content {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    background-color: #fff;
+}
+
+.section {
+    padding: 40px 40px 0 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.scroll-top {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+    opacity: 0;
+    transition: opacity 0.3s, background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-top:hover {
+    background-color: #d0d0d0;
+}
+
+.scroll-top.visible {
+    opacity: 1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s;
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .section {
+        padding: 20px;
+    }
+}
